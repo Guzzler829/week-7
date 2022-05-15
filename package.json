@@ -1,0 +1,23 @@
+{
+  "name": "week-7-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guzzler829/week-7.git"
+  },
+  "author": "Gus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guzzler829/week-7/issues"
+  },
+  "homepage": "https://github.com/Guzzler829/week-7#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}

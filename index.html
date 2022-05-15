@@ -1,21 +1,14 @@
 <html>
     <head>
-        <!--I know I'm not supposed to use anything but HTML, but using the style="" tag for every element... No thank you...-->
-        <style> 
-            body {
-                font-family: "Arial";
-                color: #eee;
-                background-color: #222;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
         <title>The Great Fumo Encyclopedia</title>
     </head>
     <body>
-        <h1>The Great Fumo Encyclopedia</h1>
+        <h1 id="heading">The Great Fumo Encyclopedia</h1>
         <img src="fumos.png" width="800px" height="600px">
-        <h3>Wow, look at all those fumos!</h3>
-        <p>Here are some things you can do with fumos:</p>
-        <ul>
+        <h3 class="filler-text">Wow, look at all those fumos!</h3>
+        <p class="filler-text">Here are some things you can do with fumos:</p>
+        <ul class="filler-text">
             <li>Throw them against the wall</li>
             <li>Give them head pats</li>
             <li>Tuck them in at night</li>
@@ -23,5 +16,8 @@
         <img src="reimu.png" width="500" height="500"><br>
         <a href="page2.html">Page 2</a><br>
         <a href="page3.html">Page 3</a>
+        <div id="animatedSection">
+            <p>Here's a div I animated with<br> CSS</p>
+        </div>
     </body>
 </html>
